@@ -38,7 +38,7 @@ Fetching BDQP01.blob.circle.png
 And a file called `BDQP01.blob.circle.png` should be generated (see folder `plots`).
 
 
-## 1. Run using only Nextflow
+## 2. Run using only Nextflow
 
 We used the followed [Docker configuration](https://www.nextflow.io/docs/latest/config.html#scope-docker):
 
