@@ -1,13 +1,13 @@
 # view_blt
 
-Run blobtools view from a Docker container image. 
+Run `blobtools view` script from a Docker container image. This script will be integrated as a Nextlow module in the [sanger-tol/blobtoolkit Nextflow pipeline](https://github.com/sanger-tol/blobtoolkit). Desingn and implementation of the original [BlobToolKit pipeline](https://github.com/blobtoolkit/pipeline): Richard Challis and Sujai Kumar.
 
 Dependencies: 
 
 1. Nextflow version 22.10.7 build 5853.
 2. Docker version 23.0.1, build a5ee5b1. 
 
-This repository is only to show document how to run the [blobtools view](https://github.com/blobtoolkit/blobtoolkit/blob/main/src/blobtools/lib/view.py) script using 
+This repository only to show documents how to run the [blobtools view](https://github.com/blobtoolkit/blobtoolkit/blob/main/src/blobtools/lib/view.py) script using 
 a Docker container image. `BDQP01` folder contains a test dataset and it is also available in [BlobToolKit Viewer repository](https://github.com/blobtoolkit/viewer). 
 
 Problem definition: The script works if run from the Docker image within a Bash script but doesn't work in Nextflow using the same Docker image.
@@ -99,5 +99,3 @@ Traceback (most recent call last):
 TypeError: '>=' not supported between instances of 'XStartTimeoutError' and 'int'
 mv: cannot stat 'BDQP01/*.png': No such file or directory
 ```
-
-This script will be integrated as a Nextlow module in the [sanger-tol/blobtoolkit Nextflow pipeline](https://github.com/sanger-tol/blobtoolkit). Desingn and implementation of the original [BlobToolKit pipeline](https://github.com/blobtoolkit/pipeline): Richard Challis and Sujai Kumar.
