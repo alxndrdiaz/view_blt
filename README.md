@@ -12,7 +12,7 @@ a Docker container image. `BDQP01` folder contains a test dataset and it is also
 
 Problem definition: The script works if run from the Docker image within a Bash script but doesn't work in Nextflow using the same Docker image.
 
-## 1. Run using only Docker from a Bash script
+## 1. Run using Docker from a Bash script
 
 Run the script using any of these commands: 
 
@@ -38,7 +38,7 @@ Fetching BDQP01.blob.circle.png
 And a file called `BDQP01.blob.circle.png` should be generated (see folder `plots`).
 
 
-## 2. Run using only Nextflow
+## 2. Run with Nextflow + Docker
 
 We used the following [Docker configuration](https://www.nextflow.io/docs/latest/config.html#scope-docker):
 
