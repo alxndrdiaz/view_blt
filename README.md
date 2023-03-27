@@ -10,7 +10,7 @@ Dependencies:
 This repository is only to show document how to run the [blobtools view](https://github.com/blobtoolkit/blobtoolkit/blob/main/src/blobtools/lib/view.py) script using 
 a Docker container image. `BDQP01` folder contains a test dataset and it is also available in [BlobToolKit Viewer repository](https://github.com/blobtoolkit/viewer). 
 
-Problem: The scripts works if run from the Docker image within a Bash script but doesn't work in Nextflow.
+Problem definition: The script works if run from the Docker image within a Bash script but doesn't work in Nextflow using the same Docker image.
 
 ## 1. Run using only Docker from a Bash script
 
