@@ -100,5 +100,4 @@ TypeError: '>=' not supported between instances of 'XStartTimeoutError' and 'int
 mv: cannot stat 'BDQP01/*.png': No such file or directory
 ```
 
-
-
+This script will be integrated as a Nextlow module in the [sanger-tol/blobtoolkit Nextflow pipeline](https://github.com/sanger-tol/blobtoolkit). Desingn and implementation of the original [BlobToolKit pipeline](https://github.com/blobtoolkit/pipeline): Richard Challis and Sujai Kumar.
