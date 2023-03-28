@@ -40,7 +40,7 @@ And a file called `BDQP01.blob.circle.png` should be generated (see folder `plot
 
 ## 2. Run with Nextflow + Docker
 
-We used the following [Docker configuration](https://www.nextflow.io/docs/latest/config.html#scope-docker):
+We used the following [Docker configuration](https://www.nextflow.io/docs/latest/config.html#scope-docker) (runOptions can be omitted and the result is the same):
 
 ```
 docker {
