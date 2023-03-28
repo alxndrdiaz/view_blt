@@ -1,6 +1,6 @@
 # view_blt
 
-Run `blobtools view` script from a Docker container image. This script will be integrated as a Nextlow module in the [sanger-tol/blobtoolkit Nextflow pipeline](https://github.com/sanger-tol/blobtoolkit). Desingn and implementation of the original [BlobToolKit pipeline](https://github.com/blobtoolkit/pipeline): Richard Challis and Sujai Kumar.
+Run `blobtools view` script from a Docker container image. This script will be integrated as a Nextlow module in the [sanger-tol/blobtoolkit Nextflow pipeline](https://github.com/sanger-tol/blobtoolkit). Design and implementation of the original [BlobToolKit pipeline](https://github.com/blobtoolkit/pipeline): Richard Challis and Sujai Kumar.
 
 Dependencies: 
 
